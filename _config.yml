@@ -1,3 +1,5 @@
+theme: jekyll-theme-cayman
+
 title: The Quest of My Research
 
 # Short description (goes below the title; it will also be used in the RSS feed)
@@ -10,10 +12,4 @@ name: The Quest of My Research
 author: Tran Hung Nghiep
 
 # Your email if you want it to be linked on the contact page
-author_email: nghiepth@nii.ac.jp
-
-disqus: thnbiz
-
-theme: jekyll-theme-cayman
-
-markdown: kramdown
+#author_email: nghiepth@nii.ac.jp
