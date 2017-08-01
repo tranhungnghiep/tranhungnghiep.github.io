@@ -13,3 +13,5 @@ author: Tran Hung Nghiep
 
 # Your email if you want it to be linked on the contact page
 #author_email: nghiepth@nii.ac.jp
+
+markdown: kramdown
