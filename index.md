@@ -2,4 +2,6 @@
 
 like
 
-$$e=mc^2$$
+<div>
+  $$e=mc^2$$
+</div>
