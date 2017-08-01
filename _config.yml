@@ -1,10 +1,12 @@
-title: The Quest of My Research title
+theme: jekyll-theme-slate
+
+title: The Quest of My Research
 
 # Short description (goes below the title; it will also be used in the RSS feed)
 #description: This is a sample Jekyll Blog.
 
 # For RSS
-name: The Quest of My Research name
+name: The Quest of My Research
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Tran Hung Nghiep
@@ -13,5 +15,3 @@ author: Tran Hung Nghiep
 author_email: nghiepth@nii.ac.jp
 
 disqus: thnbiz
-
-theme: jekyll-theme-slate
