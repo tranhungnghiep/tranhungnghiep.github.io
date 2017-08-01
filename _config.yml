@@ -15,3 +15,5 @@ author_email: nghiepth@nii.ac.jp
 disqus: thnbiz
 
 theme: jekyll-theme-cayman
+
+markdown: kramdown
