@@ -13,9 +13,12 @@ but resembles many great old ideas in new perspectives
 and tops them with some new brilliant ideas
 
 <br><br>
+this requires insights into the literature
+
+<br><br>
 speed this up
 <br>
-either by human or machine
+either for human or machine
 
 <br>
 that is **The Quest of My Research**
