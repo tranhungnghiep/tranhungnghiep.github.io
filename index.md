@@ -5,19 +5,17 @@ like
 $ e=mc^2 $
 
 <br>
-doesn't pop out of nowhere  
+doesn't pop out of nowhere
 
 <br><br>
-but resembles many great old ideas in new perspectives
-<br>
-and tops them with some new brilliant ideas
+but resembles many great old ideas in new perspectives  
+and tops them with its own new brilliant ideas
 
 <br><br>
 this requires insights into the literature
 
 <br><br>
-speed this up
-<br>
+speed this up  
 either for human or machine
 
 <br>
