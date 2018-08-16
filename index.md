@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+---
+
+<br>
+
+---
 **something**
 
 like
@@ -20,3 +28,5 @@ either for human or machine
 
 <br>
 that is **The Quest of My Research**
+
+---

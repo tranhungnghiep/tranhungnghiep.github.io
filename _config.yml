@@ -1,15 +1,25 @@
-theme: jekyll-theme-cayman
+# Site settings
+title:            The Quest of My Research
+description:      <br>
+url:              http://tranhungnghiep.github.io
+baseurl:          /
 
-title: The Quest of My Research
+author:
+  name:           Hung-Nghiep Tran
+  email:          tranhungnghiep at g mail
+  url:            http://tranhungnghiep.github.io
 
-# Short description (goes below the title; it will also be used in the RSS feed)
-#description: This is a sample Jekyll Blog.
+# Custom vars
+tagline:          Science Insights Online
+sidebar_title:    The Quest <br> of <br> My Research
 
-# For RSS
-name: The Quest of My Research
 
-# Your name, as you want it to appear underneath each post and in the footer
-author: Tran Hung Nghiep
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 5
+paginate_root: "recent_posts/"
+paginate_path: "recent_posts/page:num"
 
-# Your email if you want it to be linked on the contact page
-#author_email: nghiepth@nii.ac.jp
+# Gems plugins
+plugins: [jekyll-paginate, jekyll-gist]
