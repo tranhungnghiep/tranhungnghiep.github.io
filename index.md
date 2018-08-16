@@ -9,7 +9,7 @@ doesn't pop out of nowhere
 
 <br><br>
 but resembles many great old ideas in new perspectives  
-and tops them with its own new brilliant ideas
+and tops them with its own brilliant new ideas
 
 <br><br>
 this requires insights into the literature
