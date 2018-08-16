@@ -50,12 +50,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
