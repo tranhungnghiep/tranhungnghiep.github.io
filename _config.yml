@@ -2,7 +2,7 @@
 title:            The Quest of My Research
 description:      <br>
 url:              http://scienceinsights.online
-baseurl:          http://scienceinsights.online
+baseurl:          ""
 
 author:
   name:           Hung-Nghiep Tran
@@ -18,7 +18,7 @@ sidebar_title:    The Quest <br> of <br> My Research
 markdown: kramdown
 permalink: pretty
 paginate: 5
-paginate_root: "/recent_posts/"
+paginate_root: "/recent_posts"
 paginate_path: "/recent_posts/page:num"
 
 # Gems plugins
