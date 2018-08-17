@@ -28,7 +28,8 @@
       {% endfor %}
 
       <!-- Recent posts -->
-      <a class="sidebar-nav-item{% if page.url == site.paginate_root | prepend: '/' %} active {% endif %}" href="{{ site.url }}{{site.paginate_root}}">Recent posts</a>
+      {% assign url = site.paginate_root | prepend: '/' %}
+      <a class="sidebar-nav-item{% if page.url == url %} active {% endif %}" href="{{ site.url }}{{site.paginate_root}}">Recent posts</a>
 
     </nav>
 
