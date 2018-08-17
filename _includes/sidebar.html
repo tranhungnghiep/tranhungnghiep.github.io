@@ -3,7 +3,7 @@
     <!-- Title -->
     <div class="sidebar-about">
       <h2>
-        <a href="{{ site.url }}">
+        <a href="{{ site.url }}{{ site.baseurl }}">
           {{ site.sidebar_title }}
         </a>
       </h2>
@@ -11,7 +11,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == '/' %} active {% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/' %} active {% endif %}" href="{{ site.url }}{{ site.baseurl }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -29,7 +29,7 @@
 
       <!-- Recent posts -->
       {% assign url = '/' | append:site.paginate_root %}
-      <a class="sidebar-nav-item{% if page.url == url %} active {% endif %}" href="{{ site.url }}{{site.paginate_root}}">Recent posts</a>
+      <a class="sidebar-nav-item{% if page.url == url %} active {% endif %}" href="{{ site.url }}{{ site.baseurl }}{{site.paginate_root}}">Recent posts</a>
 
     </nav>
 
