@@ -1,10 +1,11 @@
 # Site settings
 title:            The Quest of My Research
 description:      <br>
-url:              http://scienceinsights.online
+url:              http://scienceinsights.online/
+baseurl:          ""
 # For localhost
 # url:              http://localhost:4000
-baseurl:          "/"
+# baseurl:          "/"
 
 author:
   name:           Hung-Nghiep Tran
