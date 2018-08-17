@@ -4,8 +4,8 @@ description:      <br>
 url:              http://scienceinsights.online/
 baseurl:          ""
 # For localhost
-url:              http://localhost:4000
-baseurl:          "/"
+#url:              http://localhost:4000
+#baseurl:          "/"
 
 author:
   name:           Hung-Nghiep Tran
