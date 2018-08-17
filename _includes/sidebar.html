@@ -11,7 +11,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == "/" %} active {% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/' %} active {% endif %}" href="{{ site.url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -28,14 +28,14 @@
       {% endfor %}
 
       <!-- Recent posts -->
-      <a class="sidebar-nav-item{% if page.url == "/" + site.paginate_root %} active {% endif %}" href="{{ site.url }}{{site.paginate_root}}">Recent posts</a>
+      <a class="sidebar-nav-item{% if page.url == site.paginate_root | prepend: '/' %} active {% endif %}" href="{{ site.url }}{{site.paginate_root}}">Recent posts</a>
 
     </nav>
 
     <br><br><br><br>
     <br><br><br><br>
     <br><br><br><br>
-{{page.url}}
+
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
