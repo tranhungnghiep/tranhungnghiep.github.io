@@ -28,8 +28,7 @@
       {% endfor %}
 
       <!-- Recent posts -->
-      {% assign paginate_root_url = '/' | append:site.paginate_root %}
-      <a class="sidebar-nav-item{% if page.url == paginate_root_url %} active {% endif %}" href="{{ site.url | append: site.baseurl | append: paginate_root_url | replace: '//', '/' | replace: ':/', '://' }}">Recent posts</a>
+      <a class="sidebar-nav-item{% if page.url == site.paginate_root %} active {% endif %}" href="{{ site.baseurl }} {{ site.paginate_root }}">Recent posts</a>
 
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/atom.xml">RSS feed</a>
     </nav>
