@@ -32,6 +32,7 @@
       <a class="sidebar-nav-item{% if page.url == paginate_root_url %} active {% endif %}" href="{{ site.url | append: site.baseurl | append: paginate_root_url | replace: '//', '/' | replace: ':/', '://' }}">Recent posts</a>
 
       <a class="sidebar-nav-item" href="{{ site.url | append: site.baseurl | append: '/atom.xml' | replace: '//', '/' | replace: ':/', '://' }}">RSS feed</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl | append: '/atom.xml' }}">RSS feed</a>
     </nav>
 
     <br><br><br><br>
