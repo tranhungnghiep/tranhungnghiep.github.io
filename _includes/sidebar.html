@@ -9,7 +9,7 @@
       </h2>
       <p class="lead">{{ site.description }}</p>
     </div>
-    here{{ site.baseurl }}here
+    here{{ page.url }} {{ site.baseurl }}here
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == {{ site.baseurl }} %} active {% endif %}" href="{{ site.url }}{{ site.baseurl }}">Home</a>
