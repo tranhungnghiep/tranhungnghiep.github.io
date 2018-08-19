@@ -4,6 +4,11 @@
   {% include head.html %}
 
   <body>
+    
+    <!-- Actual Google search bar, ugly, hidden. Set high z-index for overlay result -->
+    <div style='visibility: hidden; z-index: 100'>
+      <gcse:search></gcse:search>
+    </div>
 
     {% include sidebar.html %}
 
