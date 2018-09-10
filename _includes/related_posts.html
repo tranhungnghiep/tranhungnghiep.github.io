@@ -26,6 +26,7 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+  
     {% if sameTagCount >= 2 %}
       {% assign isRelated = 1 %}
       {% break %}
@@ -52,6 +53,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      
       {% if sameTagCount >= 2 %}
         <li>
         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><small> ({{ post.date | date_to_string }}) {{ commonTags }}</small></h5>
