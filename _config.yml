@@ -1,6 +1,6 @@
 # Site settings
 title:            The Quest of My Research
-description:      <br><br>
+description:      ""
 url:              https://scienceinsights.online/
 # url:              http://localhost:4000/
 baseurl:          ""
