@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="container">
 
-    <!-- Title -->
+    <!-- Side bar title -->
     <div class="sidebar-sticky-top">
       <div class="sidebar-about">
         <h2 style="text-align:center !important;">
@@ -15,14 +15,14 @@
       <br>
       <br>
 
+      <!-- Side bar navigation -->
       <nav class="sidebar-nav">
         <a class="sidebar-nav-item{% if page.url == '/' %} active {% endif %}" href="{{ site.baseurl }}/">Home</a>
-
+        <!-- Other menu -->
         {% comment %}
           The code below dynamically generates a sidebar nav of pages with
           `layout: page` in the front-matter. See readme for usage.
         {% endcomment %}
-
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
@@ -31,7 +31,6 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-
         <!-- Recent posts -->
         <a class="sidebar-nav-item{% if page.url == site.paginate_root %} active {% endif %}" href="{{ site.baseurl }}{{ site.paginate_root }}">Recent posts</a>
 
@@ -39,11 +38,10 @@
       </nav>
     </div>
 
+    <!-- Side bar bottom matter -->
     <div class="sidebar-sticky-bottom">
       {% include search_bar.html %}
-    
       <br>
-
       <p>&copy; 2016. All rights reserved.</p>
     </div>
 

@@ -4,9 +4,8 @@
   {% include head.html %}
 
   <body>
-    
     <!-- Actual Google search bar, ugly, hidden. Set high z-index for overlay result -->
-<!--     <div style='z-index: 100; visibility: hidden; overflow:hidden; height: 0; width: 0;'>
+    <!-- <div style='z-index: 100; visibility: hidden; overflow:hidden; height: 0; width: 0;'>
       <gcse:search></gcse:search>
     </div> -->
     <div style='z-index: 100; visibility: hidden; overflow:hidden; position: absolute;'>
@@ -16,7 +15,6 @@
     {% include sidebar.html %}
 
     <div class="content container">
-
     	<!-- Add a little of background image: look up to the sky -->
     	<a href="{{ site.baseurl }}/" style="z-index:20;">
         <div style="position: relative; text-align: center; color: white;">
@@ -26,8 +24,6 @@
       </a>
 
       {{ content }}
-
     </div>
-
   </body>
 </html>
