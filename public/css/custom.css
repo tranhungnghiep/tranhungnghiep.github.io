@@ -1,0 +1,24 @@
+.customcss-sidebar-about{
+	margin:0 1.5em 1.5em 1.5em;
+}
+
+.customcss-sidebar-title{
+	text-align:center;
+}
+
+/*hide google search*/
+.customcss-google-search{
+	z-index: 100; 
+	visibility: hidden; 
+	overflow:hidden; 
+	position: absolute;
+
+	/*second way*/
+	/*
+	z-index: 100; 
+	visibility: hidden; 
+	overflow:hidden; 
+	height: 0; 
+	width: 0;
+	*/
+}

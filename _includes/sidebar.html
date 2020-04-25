@@ -3,12 +3,14 @@
 
     <!-- Side bar title -->
     <div class="sidebar-sticky-top">
-      <div class="sidebar-about">
-        <h2 style="text-align:center !important;">
-          <a href="{{ site.baseurl }}/">
-            {{ site.sidebar_title }}
-          </a>
-        </h2>
+      <div class="sidebar-about customcss-sidebar-about">
+        <div class="customcss-sidebar-title">
+          <h2>
+            <a href="{{ site.baseurl }}/">
+              {{ site.sidebar_title }}
+            </a>
+          </h2>
+        </div>
         <p class="lead">{{ site.description }}</p>
       </div>
 
@@ -17,7 +19,7 @@
 
       <!-- Side bar navigation -->
       <nav class="sidebar-nav">
-        <a class="sidebar-nav-item{%- if page.url == '/' -%} active {%- endif -%}" href="{{ site.baseurl }}/">Home</a>
+        <a class="sidebar-nav-item {% if page.url == '/' %} active {% endif %}" href="{{ site.baseurl }}/">Home</a>
         
         <!-- Other menu -->
         {%- comment -%}
@@ -28,14 +30,13 @@
         {%- for node in pages_list -%}
           {%- if node.title != null -%}
             {%- if node.layout == "page" -%}
-              <a class="sidebar-nav-item{%- if page.url == node.url -%} active {%- endif -%}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+              <a class="sidebar-nav-item {% if page.url == node.url %} active {% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
             {%- endif -%}
           {%- endif -%}
-          
         {%- endfor -%}
 
         <!-- Recent posts -->
-        <a class="sidebar-nav-item{%- if page.url == site.paginate_root -%} active {%- endif -%}" href="{{ site.baseurl }}{{ site.paginate_root }}">Recent posts</a>
+        <a class="sidebar-nav-item {% if page.url == site.paginate_root %} active {% endif %}" href="{{ site.baseurl }}{{ site.paginate_root }}">Recent posts</a>
 
         <a class="sidebar-nav-item" href="{{ site.baseurl }}/atom.xml">RSS feed</a>
       </nav>
